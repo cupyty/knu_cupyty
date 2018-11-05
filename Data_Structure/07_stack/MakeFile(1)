@@ -1,0 +1,4 @@
+main.o: main.c
+	g++ -c main.c
+all: main.o
+	g++ -o stack main.o
