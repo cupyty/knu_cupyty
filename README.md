@@ -14,6 +14,11 @@
                   <li type="1"><a href="#graph">graph</a></li>
             </ol>
       </li>
-      <li>2.Operating System(운영체제)</li>
-      <li>3.Hanium(한이음 공모전 2018)</li>
+      <li><a href="#os">2.Operating System(운영체제)</a>
+            <ol>
+                  <li type="1"><a href="#process">Process</a></li>
+                  <li type="1"><a href="#thread">Thread</a></li>
+            </ol>
+      </li>
+      <li><a href="#hanium">3.Hanium(한이음 공모전 2018)</a></li>
 </ul>
