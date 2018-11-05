@@ -5,13 +5,13 @@
       <li><a href="#data">1.Data Structure(자료구조)</a>
             <ol>
                   <li type="1"><a href="#tutorial">tutorial</a></li>
-                  <li><a href="#stack">stack</a></li>
-                  <li><a href="#queue">queue</a></li>
-                  <li><a href="#llist">linked list</a></li>
-                  <li><a href="#bst">bst</a></li>
-                  <li><a href="#avl">avl_tree</a></li>
-                  <li><a href="#heap">heap</a></li>
-                  <li><a href="#graph">graph</a></li>
+                  <li type="1"><a href="#stack">stack</a></li>
+                  <li type="1"><a href="#queue">queue</a></li>
+                  <li type="1"><a href="#llist">linked list</a></li>
+                  <li type="1"><a href="#bst">bst</a></li>
+                  <li type="1"><a href="#avl">avl_tree</a></li>
+                  <li type="1"><a href="#heap">heap</a></li>
+                  <li type="1"><a href="#graph">graph</a></li>
             </ol>
       </li>
       <li>2.Operating System(운영체제)</li>
