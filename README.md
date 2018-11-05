@@ -3,7 +3,7 @@
 폴더에는 현재까지 수강했던 SW과목 및 프로젝트 code 등이 있다. 추가할 code가 있다면 계속 추가될 예정이다.
 <ul>
       <li><a href="#data">1.Data Structure(자료구조)</a>
-            <ol>
+            <ol style="list-style-type:decimal">
                <li>tutorial</li>
                <li>stack</li>
                <li>queue</li>
