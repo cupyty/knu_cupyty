@@ -26,3 +26,4 @@
 <br><br><br><br><br>
 
 <a name="data"><strong>1.Data Structure(자료구조)</strong></a>
+>자료구조는 Data의 저장 및 관리에 대한 SW분야의 가장 대표적인 과목으로 2학년 2학기에 수강하게 된다.
