@@ -30,7 +30,7 @@
       <li><a href="#java">4.Java(자바)</a></li>
 </ul>
 
-<br><br><br><br><br>
+<br><br><br>
 
 ### <a name="data">1.Data Structure(자료구조)</a>
 자료구조는 Data의 저장 및 관리에 대한 SW분야의 가장 대표적인 과목으로 자료구조를 바탕으로 효율적인 데이터 저장 및 관리 알고리즘을 작성할 수 있게 된다. 2학년 2학기에 수강하게 된다.
