@@ -24,3 +24,22 @@ bool push(STACK* stack, void* in){
 
 	return true;
 }
+
+void* pop(STACK* stack)
+{
+	void* dataoutptr;
+	STACK_NODE* temp;
+
+	if(stack->count == 0)
+		dataoutptr = NULL;
+	else
+	{
+		temp = stack->top;
+		dataoutptr=stack->top->data_ptr;
+		stack->top=stack->top->link;
+		free(temp);
+		(stack->count)--;
+	}
+
+	return dataoutptr;
+}

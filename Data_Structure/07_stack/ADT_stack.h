@@ -12,3 +12,4 @@ typedef struct{
 
 STACK* create_stack();
 bool push(STACK* stack, void* in);
+void* pop(STACK* stack);
