@@ -28,6 +28,9 @@
             </ol>            
       </li>
       <li><a href="#java">4.Java(자바)</a></li>
+      <li><a href="#soc">5.SoC 프로그래밍 및 실습</a></li>
+      <li><a href="micro">6.Microprocessor 설계</
+      
 </ul>
 
 <br><br><br>
