@@ -1,0 +1,302 @@
+10:05:33 **** Auto Build of project ps_termproj_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/pushbutton_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/pushbutton_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/pwm_gen_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/pwm_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/seven_seg_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/seven_seg_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/textlcd_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/textlcd_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdevcfg.o xdevcfg.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdevcfg.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdevcfg_g.o xdevcfg_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdevcfg_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdevcfg_hw.o xdevcfg_hw.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdevcfg_hw.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdevcfg_intr.o xdevcfg_intr.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdevcfg_intr.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdevcfg_selftest.o xdevcfg_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdevcfg_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdevcfg_sinit.o xdevcfg_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdevcfg_sinit.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/devcfg_v3_2/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdmaps.o xdmaps.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdmaps.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdmaps_g.o xdmaps_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdmaps_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdmaps_hw.o xdmaps_hw.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdmaps_hw.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdmaps_selftest.o xdmaps_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdmaps_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xdmaps_sinit.o xdmaps_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xdmaps_sinit.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/dmaps_v2_1/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps.o xiicps.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_g.o xiicps_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_hw.o xiicps_hw.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_hw.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_intr.o xiicps_intr.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_intr.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_master.o xiicps_master.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_master.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_options.o xiicps_options.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_options.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_selftest.o xiicps_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_sinit.o xiicps_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_sinit.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xiicps_slave.o xiicps_slave.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xiicps_slave.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/iicps_v2_3/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/pushbutton_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/pushbutton_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling pushbutton..."
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include *.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [libs] 오류 2
+make: *** [ps7_cortexa9_0/libsrc/pushbutton_v1_0/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/pwm_gen_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/pwm_gen_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling pwm_gen..."
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include *.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [libs] 오류 2
+make: *** [ps7_cortexa9_0/libsrc/pwm_gen_v1_0/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscugic.o xscugic.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscugic.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscugic_g.o xscugic_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscugic_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscugic_hw.o xscugic_hw.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscugic_hw.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscugic_intr.o xscugic_intr.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscugic_intr.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscugic_selftest.o xscugic_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscugic_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscugic_sinit.o xscugic_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscugic_sinit.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/scugic_v2_1/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscutimer.o xscutimer.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscutimer.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscutimer_g.o xscutimer_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscutimer_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscutimer_selftest.o xscutimer_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscutimer_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscutimer_sinit.o xscutimer_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscutimer_sinit.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/scutimer_v2_0/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscuwdt.o xscuwdt.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscuwdt.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscuwdt_g.o xscuwdt_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscuwdt_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscuwdt_selftest.o xscuwdt_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscuwdt_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xscuwdt_sinit.o xscuwdt_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xscuwdt_sinit.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/scuwdt_v2_0/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/seven_seg_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/seven_seg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling seven_seg..."
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include *.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [libs] 오류 2
+make: *** [ps7_cortexa9_0/libsrc/seven_seg_v1_0/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -march=armv7-a -mfloat-abi=soft -mfpu=neon -I./. -I../../../include _exit.c _open.c _sbrk.c abort.c close.c errno.c fcntl.c fstat.c getpid.c inbyte.c isatty.c kill.c lseek.c open.c outbyte.c print.c putnum.c read.c sbrk.c sleep.c unlink.c usleep.c vectors.c write.c xil_assert.c xil_cache.c xil_exception.c xil_io.c xil_misc_psreset_api.c xil_mmu.c xil_printf.c xil_testcache.c xil_testio.c xil_testmem.c xl2cc_counter.c xpm_counter.c xtime_l.c asm_vectors.S boot.S cpu_init.S translation_table.s xil-crt0.S, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [standalone_libs] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/standalone_v4_2/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/textlcd_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/textlcd_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling textlcd..."
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include *.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [libs] 오류 2
+make: *** [ps7_cortexa9_0/libsrc/textlcd_v1_0/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xuartps.o xuartps.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xuartps.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xuartps_g.o xuartps_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xuartps_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xuartps_hw.o xuartps_hw.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xuartps_hw.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xuartps_intr.o xuartps_intr.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xuartps_intr.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xuartps_options.o xuartps_options.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xuartps_options.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xuartps_selftest.o xuartps_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xuartps_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xuartps_sinit.o xuartps_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xuartps_sinit.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/uartps_v2_2/src/make.libs] 오류 2
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xadcps.o xadcps.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xadcps.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xadcps_g.o xadcps_g.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xadcps_g.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xadcps_intr.o xadcps_intr.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xadcps_intr.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xadcps_selftest.o xadcps_selftest.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xadcps_selftest.o] 오류 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -g -I./. -I../../../include -o xadcps_sinit.o xadcps_sinit.c, ...) failed.
+make (e=2): 지정된 파일을 찾을 수 없습니다.
+
+make[1]: *** [xadcps_sinit.o] 오류 2
+make[1]: 오류로 인해 타겟 `libs'를 다시 만들지 못했습니다.
+make: *** [ps7_cortexa9_0/libsrc/xadcps_v2_1/src/make.libs] 오류 2
+make: 오류로 인해 타겟 `all'를 다시 만들지 못했습니다.
+
+10:05:49 Build Finished (took 16s.292ms)
+

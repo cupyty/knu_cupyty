@@ -1,0 +1,6 @@
+00:21:31 **** Incremental Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+00:21:32 Build Finished (took 427ms)
+

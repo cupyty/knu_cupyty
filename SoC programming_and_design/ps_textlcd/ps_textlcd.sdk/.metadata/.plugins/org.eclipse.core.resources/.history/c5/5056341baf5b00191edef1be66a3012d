@@ -1,0 +1,6 @@
+01:33:19 INFO  : Registering command handlers for SDK TCF services
+01:33:19 INFO  : Launching XSCT server: xsct.bat -interactive C:\2014104101\ps_textlcd\ps_textlcd.sdk\temp_xsdb_launch_script.tcl
+01:33:22 INFO  : XSCT server has started successfully.
+01:33:24 INFO  : Successfully done setting XSCT server connection channel  
+01:33:24 INFO  : Successfully done setting SDK workspace  
+01:33:24 INFO  : Processing command line option -hwspec C:/2014104101/ps_textlcd/ps_textlcd.sdk/system_wrapper.hdf.

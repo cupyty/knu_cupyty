@@ -1,0 +1,41 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port lcd_rs_0 -pg 1 -y -100 -defaultsOSRD
+preplace port lcd_rw_0 -pg 1 -y -80 -defaultsOSRD
+preplace port clk_0 -pg 1 -y -50 -defaultsOSRD
+preplace port resetn_0 -pg 1 -y -70 -defaultsOSRD
+preplace port lcd_en_0 -pg 1 -y -60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y -220 -defaultsOSRD
+preplace portBus lcd_data_0 -pg 1 -y -40 -defaultsOSRD
+preplace portBus seg_en_0 -pg 1 -y 90 -defaultsOSRD
+preplace portBus seg_data_0 -pg 1 -y 110 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 4 -y -140 -defaultsOSRD
+preplace inst seven_seg_0 -pg 1 -lvl 2 -y -50 -defaultsOSRD
+preplace inst textlcd_0 -pg 1 -lvl 1 -y -70 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 5 -y -80 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y -20 -defaultsOSRD
+preplace netloc seven_seg_0_seg_data 1 2 4 660J 120 NJ 120 NJ 120 1820J
+preplace netloc clk_0_1 1 0 2 30J -170 330J
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 2 N -30 1480J
+preplace netloc textlcd_0_lcd_rs 1 1 5 320J 110 NJ 110 NJ 110 NJ 110 1790J
+preplace netloc textlcd_0_lcd_en 1 1 5 340J -170 NJ -170 1110J 100 NJ 100 1800J
+preplace netloc resetn_0_1 1 0 2 20J -200 390J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 3 1 1120
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 6 50 70 NJ 70 NJ 70 NJ 70 NJ 70 1760
+preplace netloc textlcd_0_lcd_data 1 1 5 380J -150 NJ -150 1070J 130 NJ 130 1810J
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 4 1 N
+preplace netloc textlcd_0_lcd_rw 1 1 5 350J -140 660J -110 1100J 0 1470J 80 1780J
+preplace netloc processing_system7_0_FIXED_IO 1 3 3 N -50 1470 -220 N
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 5 40 -190 370 -190 NJ -190 1130J -40 1490
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 60 -160 360 -160 670 -160 1080 -20 1500
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 5 400 60 NJ 60 NJ 60 NJ 60 1770J
+preplace netloc seven_seg_0_seg_en 1 2 4 660J -100 1090J -10 1480J 90 NJ
+levelinfo -pg 1 0 190 530 870 1300 1630 1960 -top -230 -bot 240
+",
+}
+{
+   da_axi4_cnt: "2",
+   da_ps7_cnt: "1",
+}

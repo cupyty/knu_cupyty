@@ -1,0 +1,144 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 17888
+License: Customer
+
+Current time: 	Sat Jun 22 10:00:45 KST 2019
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 76 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	changhyeon kim
+User home directory: C:/Users/changhyeon kim
+User working directory: C:/2014104101/Termproj
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/changhyeon kim/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/changhyeon kim/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/changhyeon kim/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/2014104101/Termproj/vivado.log
+Vivado journal file location: 	C:/2014104101/Termproj/vivado.jou
+Engine tmp dir: 	C:/2014104101/Termproj/.Xil/Vivado-17888-DESKTOP-I4IGBI9
+
+GUI allocated memory:	184 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 479 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 49 MB (+48560kb) [00:00:15]
+// [Engine Memory]: 477 MB (+348379kb) [00:00:15]
+// aL (cj): Older Project Version: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 34 MB. Current time: 6/22/19 10:00:47 AM KST
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE, "Open project in read-only mode"); // a (N, aL)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: C:\2014104101\Termproj\Termproj.xpr. Version: Vivado v2014.4_63036 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aL (cj)
+// Tcl Message: open_project -read_only C:/2014104101/Termproj/Termproj.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 500 MB. GUI used memory: 34 MB. Current time: 6/22/19 10:01:47 AM KST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 503 MB (+2112kb) [00:01:25]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 546 MB (+18791kb) [00:01:28]
+// [GUI Memory]: 60 MB (+9426kb) [00:01:31]
+// [Engine Memory]: 574 MB (+996kb) [00:01:31]
+// [GUI Memory]: 67 MB (+3755kb) [00:01:33]
+// Tcl Message: open_project -read_only C:/2014104101/Termproj/Termproj.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/2014104101/Termproj' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/2014104101/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 784.891 ; gain = 85.051 
+// Project name: Termproj; location: C:/2014104101/Termproj; part: xc7z020clg484-1
+// Elapsed time: 18 seconds
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (cj): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// z (cj): Project is Read-Only: addNotify
+// [GUI Memory]: 72 MB (+2400kb) [00:01:39]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (z)
+dismissDialog("Project is Read-Only"); // z (cj)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 38 MB. Current time: 6/22/19 10:02:27 AM KST
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cj, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cj): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// [Engine Memory]: 610 MB (+7784kb) [00:02:03]
+// 'o' command handler elapsed time: 4 seconds
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cj)
+// Tcl Message: launch_sdk -workspace C:/2014104101/Termproj/Termproj.sdk -hwspec C:/2014104101/Termproj/Termproj.sdk/system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/2014104101/Termproj/Termproj.sdk -hwspec C:/2014104101/Termproj/Termproj.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 81 MB (+4755kb) [00:02:12]
+// [GUI Memory]: 86 MB (+1462kb) [00:05:22]
+// [GUI Memory]: 92 MB (+1924kb) [00:07:02]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 98 MB (+875kb) [00:10:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 635 MB. GUI used memory: 43 MB. Current time: 6/22/19 10:13:32 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 43 MB. Current time: 6/22/19 10:43:32 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 41 MB. Current time: 6/22/19 11:13:33 AM KST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.

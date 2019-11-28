@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu May 30 21:53:32 2019
+# Process ID: 30260
+# Log file: C:/2014104101/ps_digital_clock/vivado.log
+# Journal file: C:/2014104101/ps_digital_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2014104101/ps_digital_clock/ps_digital_clock.xpr
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.33) then the current supported version (0.31).
+Data could be potentially be lost
+Scanning sources...
+Finished scanning sources
+ERROR: unknown error occurred
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 30 21:54:40 2019...

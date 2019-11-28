@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jun 22 10:00:07 2019
+# Process ID: 17888
+# Current directory: C:/2014104101/Termproj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15288 C:\2014104101\Termproj\Termproj.xpr
+# Log file: C:/2014104101/Termproj/vivado.log
+# Journal file: C:/2014104101/Termproj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only C:/2014104101/Termproj/Termproj.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/2014104101/Termproj/Termproj.sdk -hwspec C:/2014104101/Termproj/Termproj.sdk/system_wrapper.hdf

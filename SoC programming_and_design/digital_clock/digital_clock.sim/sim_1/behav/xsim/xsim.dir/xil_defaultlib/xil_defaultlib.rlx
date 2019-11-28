@@ -1,0 +1,12 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/2014104101/digital_clock/digital_clock.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/bin2seg.v,1555228372,verilog,,C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/clk_divder.v,,bin2seg,,,,,,,,
+C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/clk_divder.v,1491918094,verilog,,C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/digital_clock.v,,clk_divider,,,,,,,,
+C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/digital_clock.v,1555228353,verilog,,C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/seven_seg.v,,digital_clock,,,,,,,,
+C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/seven_seg.v,1555236661,verilog,,C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/textlcd.v,,seven_seg,,,,,,,,
+C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/tb_top.v,1491905008,verilog,,,,tb_top,,,,,,,,
+C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/textlcd.v,1555227172,verilog,,C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/top.v,,textlcd,,,,,,,,
+C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/top.v,1555228410,verilog,,C:/2014104101/digital_clock/digital_clock.srcs/sources_1/imports/codes/tb_top.v,,top,,,,,,,,

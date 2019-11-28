@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu May 30 21:54:44 2019
+# Process ID: 3228
+# Log file: C:/2014104101/ps_digital_clock/vivado.log
+# Journal file: C:/2014104101/ps_digital_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2014104101/ps_digital_clock/ps_digital_clock.xpr
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.33) then the current supported version (0.31).
+Data could be potentially be lost
+Scanning sources...
+Finished scanning sources
+ERROR: unknown error occurred
+open_project C:/2014104101/test_push/test_push.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/2014104101/ip_repo/pushbutton_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/2014104101/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 719.625 ; gain = 125.266
+open_bd_design {C:/2014104101/test_push/test_push.srcs/sources_1/bd/system/system.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:user:seven_seg:1.0 - seven_seg_0
+Adding component instance block -- xilinx.com:user:textlcd:1.0 - textlcd_0
+Adding component instance block -- xilinx.com:user:pushbutton:1.0 - pushbutton_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_50M
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <system> from BD file <C:/2014104101/test_push/test_push.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 739.109 ; gain = 19.484
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 30 21:57:28 2019...

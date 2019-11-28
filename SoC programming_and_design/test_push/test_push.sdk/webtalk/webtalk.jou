@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Sun Jun 02 03:05:17 2019
+# Process ID: 20400
+# Log file: C:/2014104101/test_push/test_push.sdk/webtalk/webtalk.log
+# Journal file: C:/2014104101/test_push/test_push.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

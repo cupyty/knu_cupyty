@@ -1,0 +1,11 @@
+10:05:50 **** Auto Build of configuration Debug for project ps_termproj ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_termproj_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'arm-xilinx-eabi-gcc'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+make: *** [src/helloworld.o] 오류 1
+
+10:05:50 Build Finished (took 768ms)
+

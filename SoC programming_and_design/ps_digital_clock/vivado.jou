@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu May 30 21:54:44 2019
+# Process ID: 3228
+# Log file: C:/2014104101/ps_digital_clock/vivado.log
+# Journal file: C:/2014104101/ps_digital_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2014104101/ps_digital_clock/ps_digital_clock.xpr
+open_project C:/2014104101/test_push/test_push.xpr
+open_bd_design {C:/2014104101/test_push/test_push.srcs/sources_1/bd/system/system.bd}

@@ -1,0 +1,733 @@
+03:01:45 **** Build of project ps_test_push_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/pushbutton_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/pushbutton_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/seven_seg_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/seven_seg_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/textlcd_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/textlcd_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/pushbutton_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/pushbutton_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling pushbutton..."
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/seven_seg_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/seven_seg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling seven_seg..."
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/textlcd_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/textlcd_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling textlcd..."
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+03:02:21 **** Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22920	   1152	  22564	  46636	   b62c	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+03:03:35 **** Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+'Building file: ../src/xscugic_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_example.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xscugic_example.d" -MT"src/xscugic_example.d" -o "src/xscugic_example.o" "../src/xscugic_example.c"
+'Finished building: ../src/xscugic_example.c'
+' '
+'Building target: ps_test_push_bsp_xscugic_example_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push_bsp_xscugic_example_1.elf"  ./src/xscugic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push_bsp_xscugic_example_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push_bsp_xscugic_example_1.elf  |tee "ps_test_push_bsp_xscugic_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26064	   1928	  22596	  50588	   c59c	ps_test_push_bsp_xscugic_example_1.elf
+'Finished building: ps_test_push_bsp_xscugic_example_1.elf.size'
+' '
+16:00:43 **** Clean-only build of configuration Debug for project ps_test_push ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  ps_test_push.elf.size  ps_test_push.elf
+' '
+16:00:43 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28688	   1928	  22596	  53212	   cfdc	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:00:56 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28688	   1928	  22596	  53212	   cfdc	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:03:38 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28624	   1928	  22596	  53148	   cf9c	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:05:23 **** Clean-only build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make clean 
+rm -rf  ./src/xscugic_example.o  ./src/xscugic_example.d  ps_test_push_bsp_xscugic_example_1.elf.size  ps_test_push_bsp_xscugic_example_1.elf
+' '
+16:05:24 **** Auto Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+'Building file: ../src/xscugic_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_example.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xscugic_example.d" -MT"src/xscugic_example.d" -o "src/xscugic_example.o" "../src/xscugic_example.c"
+'Finished building: ../src/xscugic_example.c'
+' '
+'Building target: ps_test_push_bsp_xscugic_example_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push_bsp_xscugic_example_1.elf"  ./src/xscugic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push_bsp_xscugic_example_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push_bsp_xscugic_example_1.elf  |tee "ps_test_push_bsp_xscugic_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26064	   1928	  22596	  50588	   c59c	ps_test_push_bsp_xscugic_example_1.elf
+'Finished building: ps_test_push_bsp_xscugic_example_1.elf.size'
+' '
+16:06:42 **** Auto Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+'Building file: ../src/xscugic_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_example.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xscugic_example.d" -MT"src/xscugic_example.d" -o "src/xscugic_example.o" "../src/xscugic_example.c"
+'Finished building: ../src/xscugic_example.c'
+' '
+'Building target: ps_test_push_bsp_xscugic_example_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push_bsp_xscugic_example_1.elf"  ./src/xscugic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push_bsp_xscugic_example_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push_bsp_xscugic_example_1.elf  |tee "ps_test_push_bsp_xscugic_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26064	   1928	  22596	  50588	   c59c	ps_test_push_bsp_xscugic_example_1.elf
+'Finished building: ps_test_push_bsp_xscugic_example_1.elf.size'
+' '
+16:07:00 **** Auto Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+'Building file: ../src/xscugic_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_example.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xscugic_example.d" -MT"src/xscugic_example.d" -o "src/xscugic_example.o" "../src/xscugic_example.c"
+'Finished building: ../src/xscugic_example.c'
+' '
+'Building target: ps_test_push_bsp_xscugic_example_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push_bsp_xscugic_example_1.elf"  ./src/xscugic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push_bsp_xscugic_example_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push_bsp_xscugic_example_1.elf  |tee "ps_test_push_bsp_xscugic_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26064	   1928	  22596	  50588	   c59c	ps_test_push_bsp_xscugic_example_1.elf
+'Finished building: ps_test_push_bsp_xscugic_example_1.elf.size'
+' '
+16:07:44 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28624	   1928	  22596	  53148	   cf9c	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:08:40 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:96:13: error: unknown type name 'XIicps'
+ int ReadRTC(XIicps Iic, u8 *SendBuffer, u8 *RecvBuffer);
+             ^
+make: *** [src/helloworld.o] 오류 1
+16:09:15 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28624	   1928	  22596	  53148	   cf9c	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:10:03 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28688	   1928	  22596	  53212	   cfdc	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:10:23 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34328	   1944	  22596	  58868	   e5f4	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:11:29 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34264	   1944	  22596	  58804	   e5b4	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:12:01 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34236	   1944	  22596	  58776	   e598	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:12:47 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34108	   1944	  22596	  58648	   e518	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:24:37 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:129:6: warning: unused variable 'SegReg' [-Wunused-variable]
+  int SegReg;
+      ^
+../src/helloworld.c:128:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:127:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+../src/helloworld.c: In function 'DeviceDriverHandler':
+../src/helloworld.c:359:6: warning: variable 'buffer' set but not used [-Wunused-but-set-variable]
+  int buffer;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34108	   1944	  22596	  58648	   e518	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:25:26 **** Incremental Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+16:25:28 **** Incremental Build of configuration Debug for project ps_test_push ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+16:26:03 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:6: warning: unused variable 'SegReg' [-Wunused-variable]
+  int SegReg;
+      ^
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+../src/helloworld.c: In function 'DeviceDriverHandler':
+../src/helloworld.c:363:2: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(buffer & 1 == 1){
+  ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34108	   1944	  22596	  58648	   e518	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:26:25 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:6: warning: unused variable 'SegReg' [-Wunused-variable]
+  int SegReg;
+      ^
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34108	   1944	  22596	  58648	   e518	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:27:02 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:6: warning: unused variable 'SegReg' [-Wunused-variable]
+  int SegReg;
+      ^
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34172	   1944	  22596	  58712	   e558	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:35:57 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:6: warning: variable 'SegReg' set but not used [-Wunused-but-set-variable]
+  int SegReg;
+      ^
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31604	   1936	  22596	  56136	   db48	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:36:38 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31624	   1936	  22596	  56156	   db5c	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:37:00 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:148:7: error: 'wait' undeclared (first use in this function)
+   for(wait = 0; wait < 1200; wait++);
+       ^
+../src/helloworld.c:148:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+make: *** [src/helloworld.o] 오류 1
+16:37:13 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31660	   1936	  22596	  56192	   db80	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+16:37:18 **** Incremental Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+16:37:19 **** Incremental Build of configuration Debug for project ps_test_push ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:01:57 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:130:6: warning: unused variable 'IicStatus' [-Wunused-variable]
+  int IicStatus;
+      ^
+../src/helloworld.c:129:9: warning: unused variable 'Iic' [-Wunused-variable]
+  XIicPs Iic;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31660	   1936	  22596	  56192	   db80	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+21:02:01 **** Incremental Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:02:02 **** Incremental Build of configuration Debug for project ps_test_push ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+23:03:52 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:130:5: error: too many arguments to function 'WriteRTC'
+     WriteRTC(Iic, WriteBuffer, 2);
+     ^
+../src/helloworld.c:45:5: note: declared here
+ int WriteRTC(XIicPs Iic, u8 *SendBuffer);
+     ^
+../src/helloworld.c:139:5: error: too many arguments to function 'WriteRTC'
+     WriteRTC(Iic, WriteBuffer, 3);
+     ^
+../src/helloworld.c:45:5: note: declared here
+ int WriteRTC(XIicPs Iic, u8 *SendBuffer);
+     ^
+../src/helloworld.c:148:5: error: too many arguments to function 'WriteRTC'
+     WriteRTC(Iic, WriteBuffer, 4);
+     ^
+../src/helloworld.c:45:5: note: declared here
+ int WriteRTC(XIicPs Iic, u8 *SendBuffer);
+     ^
+../src/helloworld.c:93:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c:91:7: warning: unused variable 'TlcdReg_down_temp' [-Wunused-variable]
+  char TlcdReg_down_temp[16];
+       ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:204:5: error: conflicting types for 'WriteRTC'
+ int WriteRTC(XIicPs Iic, u8 *SendBuffer, int offset)
+     ^
+../src/helloworld.c:45:5: note: previous declaration of 'WriteRTC' was here
+ int WriteRTC(XIicPs Iic, u8 *SendBuffer);
+     ^
+make: *** [src/helloworld.o] 오류 1
+23:04:17 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:93:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c:91:7: warning: unused variable 'TlcdReg_down_temp' [-Wunused-variable]
+  char TlcdReg_down_temp[16];
+       ^
+../src/helloworld.c:109:13: warning: 'SendBuffer' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   IicStatus = ReadRTC(Iic, SendBuffer, RecvBuffer);
+             ^
+../src/helloworld.c:129:18: warning: 'WriteBuffer' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     *WriteBuffer = hour;
+                  ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34160	   1936	  22596	  58692	   e544	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+23:04:36 **** Incremental Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+23:04:38 **** Incremental Build of configuration Debug for project ps_test_push ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+00:20:41 **** Auto Build of configuration Debug for project ps_test_push ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ps_test_push_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:93:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c:91:7: warning: unused variable 'TlcdReg_down_temp' [-Wunused-variable]
+  char TlcdReg_down_temp[16];
+       ^
+../src/helloworld.c:109:13: warning: 'SendBuffer' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   IicStatus = ReadRTC(Iic, SendBuffer, RecvBuffer);
+             ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ps_test_push.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps_test_push_bsp/ps7_cortexa9_0/lib -o "ps_test_push.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_test_push.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps_test_push.elf  |tee "ps_test_push.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34084	   1936	  22596	  58616	   e4f8	ps_test_push.elf
+'Finished building: ps_test_push.elf.size'
+' '
+00:21:31 **** Incremental Build of configuration Debug for project ps_test_push_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+00:21:33 **** Incremental Build of configuration Debug for project ps_test_push ****
+make all 
+make: `all'를 위해 할 일이 없습니다

@@ -1,0 +1,33 @@
+ServiceManagerID=5c186eb9-73f1-484d-8e37-4a16d74f3fbd
+TransportName=TCP
+PeerTypeId=HARDWARE_SERVER
+UserName=changhyeon kim
+Port=3121
+Host=127.0.0.1
+OSName=Windows 10
+ID=Local
+AgentID=5c186eb9-73f1-484d-8e37-4a16d74f3fbd
+Name=Local
+
+ServiceManagerID=5c186eb9-73f1-484d-8e37-4a16d74f3fbd
+TransportName=TCP
+PeerTypeId=LINUX_TCF_AGENT
+UserName=changhyeon kim
+Port=1534
+Host=192.168.0.1
+OSName=Windows 10
+ID=Linux Agent
+AgentID=5c186eb9-73f1-484d-8e37-4a16d74f3fbd
+Name=Linux Agent
+
+ServiceManagerID=5c186eb9-73f1-484d-8e37-4a16d74f3fbd
+TransportName=TCP
+PeerTypeId=QEMU_TCF_GDB_CLIENT
+UserName=changhyeon kim
+Port=1138
+Host=127.0.0.1
+OSName=Windows 10
+ID=QEMU
+AgentID=5c186eb9-73f1-484d-8e37-4a16d74f3fbd
+Name=QEMU
+

@@ -1,0 +1,6 @@
+00:21:33 **** Incremental Build of configuration Debug for project ps_test_push ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+00:21:33 Build Finished (took 550ms)
+
